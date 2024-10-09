@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: green;
+}
+
+h1 {
+    margin-left: 20px; /* Adiciona um espaçamento do lado esquerdo, se necessário */
+    font-size: 24px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+padding-bottom: 60px; /* Espaço suficiente para o footer */
+}
+
+.container {
+flex-grow: 1;
+}
+  
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.text-footer{
+    font-size: 13px;
+}
