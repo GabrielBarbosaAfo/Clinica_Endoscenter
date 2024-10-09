@@ -27,8 +27,6 @@ function Home() {
     lng: -43.778358459472656,
   };
 
-  const apiKey = process.env.API_KEY;
-
   return (
     <APIProvider
       apiKey="AIzaSyA-qF4Csrs-TSWP0mtrdGkExK2NjZt_3tc"
