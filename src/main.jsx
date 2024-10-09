@@ -6,6 +6,8 @@ import Sobre from './components/Sobre.jsx'
 import Especialidades from './components/Especialidades.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
 
+require('dotenv').config();
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
