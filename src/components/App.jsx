@@ -7,7 +7,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import Header from './header';
 import Footer from './Footer';
-import Home from './Home';
 import { Outlet } from 'react-router-dom';
 
 function App() {

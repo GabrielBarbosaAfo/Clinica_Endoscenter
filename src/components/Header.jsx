@@ -55,7 +55,7 @@ function Header() {
                             <Link to="/especialidades" className="nav-link px-5 link-dark">Especialidades</Link>
                         </li>
                         <li>
-                            <Link to="/" className="nav-link px-5 link-dark">Novidades</Link>
+                            <Link to="/novidades" className="nav-link px-5 link-dark">Novidades</Link>
                         </li>
                     </ul>
                 </div>
